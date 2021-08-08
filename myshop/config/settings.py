@@ -18,7 +18,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 try:
     from .local_settings import *
-except:
+except ImportError:
     from .prod_settings import *
 
 # Application definition
