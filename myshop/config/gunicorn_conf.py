@@ -1,6 +1,6 @@
 command = '/home/www/code/lesson7/venv/bin/gunicorn'
 pythonpath = '/home/www/code/lesson7/myshop'
-bind = '127.0.0.1:8001'
+bind = '127.0.0.1:8000'
 workers = 3
 user = 'www'
 timeout = 120

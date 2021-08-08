@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-wmvu07j_i@9fpyj2pq@#$j6(b9=u$u@apanaor8*wg9dsu^6$r
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', '192.168.56.22']
 
 DATABASES = {
     'default': {
